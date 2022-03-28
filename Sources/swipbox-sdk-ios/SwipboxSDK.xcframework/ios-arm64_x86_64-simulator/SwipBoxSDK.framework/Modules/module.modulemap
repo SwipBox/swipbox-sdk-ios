@@ -1,0 +1,11 @@
+framework module SwipBoxSDK {
+  umbrella header "SwipBoxSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SwipBoxSDK.Swift {
+    header "SwipBoxSDK-Swift.h"
+    requires objc
+}
