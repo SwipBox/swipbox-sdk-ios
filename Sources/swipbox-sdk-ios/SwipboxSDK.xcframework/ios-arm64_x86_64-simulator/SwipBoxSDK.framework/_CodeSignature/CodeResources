@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwipBoxSDK-Swift.h</key>
 		<data>
-		/y/kVYr84GKTXhI5ujKLmkLOKbc=
+		yO1eQmbm95mP64rYJALs6Ctw12A=
 		</data>
 		<key>Headers/SwipBoxSDK.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jVZJjyF6SKcGVxMcIPAqoIYxJC4=
+		pdhHLE7y36FSkTdYA/mFun/OdQw=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Ifc+dAEFChaaKSxoG9bnk4gBsdc=
+		6jXMD+r672miiP+rLc/TbMPJTHk=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aqx1ybqK3+nUckA1DcP3RwnCQ2g=
+		3M7F+LNZhMo7QFVgedWKJXlioWY=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8jO/E1S+QYEkty9mQQTnmT5T0rc=
+		dXN6Lohi1wamuILBek0MlovgyMU=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		B5yrRAoqOTGwBAlxtu5I/RfONQA=
+		QsiT+HpzJZBntfqPyrrVxKr4A/U=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r3DWHFbkJPv1Jv+Z+Qlf6nI5VnE=
+		P7H1WdE86bW/ExUJu0ZlIHvQ9E0=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PluVevG1mFRFJij6JScxRzhDQlo=
+		R2d49itPkyPQGvubpVf7R0K0gxQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GZsawptxLZMO7RYamkgFPvgKVBuD45VaXfPNogB7/D8=
+			BkWIoWmFiY5OwVFay9KtgEMtcltxuhgIbT33QXWcTFo=
 			</data>
 		</dict>
 		<key>Headers/SwipBoxSDK.h</key>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FMbEAFYKCKn1Q1lbacyES5Uo5qlOrOrYy9Bpplgrj+w=
+			2/8tSxlBod16pa/CdhetO7lRPhNGtpk0cLWpWkLhkXo=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z7PVMGL/2MmyWveHFmFDKrIHGTx61ektoWgjAIhpe74=
+			tAHOqRUlhusbQIN3G7vOOghcBNCVJg7gBbPLq1e5Kco=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VzuqZGeMTMcQivqcSR1Kd9fT9ANHuUvnt4LEgx4u4mA=
+			+30qJDLd2SyMt0hulP6kLO89WrwbEg0CXiknCquwUO4=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BfwvMh+5XFcisJxOhdGISlvwENTZ1awwySbXvCMQsnQ=
+			SmfqqiFU8G+gAZ8WF/ffeRx0KG5ueAlyp90m8FhfeF4=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/gbnYhZ0X75rcZoRscCnxE8ClkBCT6jeU/58H7ZtAVM=
+			W6hX+Lj21zLjbHZW8kRFL+TkEQO35056J39imXprthE=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQYelf5YSWI2nZ8Xxp4F4eGTNx6DtIn+OWlnqnVIHLM=
+			qUauGWRxOe0kEVswQc/GJN5uB1VRRFxkK6QDhIXhoJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
