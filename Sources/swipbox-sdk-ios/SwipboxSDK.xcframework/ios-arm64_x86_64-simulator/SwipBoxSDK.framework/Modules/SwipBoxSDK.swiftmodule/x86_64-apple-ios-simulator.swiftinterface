@@ -22,7 +22,7 @@ import _Concurrency
 }
 public protocol BLELockerCallBackDelegate {
   func onCompartmentStatusChanged(uid: Swift.String, compartmentId: Swift.Int, state: Swift.Int)
-  func onConnectionStatusChange(isConnected: Swift.Bool, code: Swift.Int)
+  func onConnectionStatusChanged(uid: Swift.String, status: Swift.Int)
   func onError(isHardwareError: Swift.Bool, errorCode: Swift.Int)
   func onDataAvailable(jsonData: Swift.Dictionary<Swift.String, Any>)
   func onFirmwareUpdateInProgress(percentage: Swift.Int)
