@@ -6,6 +6,6 @@ framework module SwipBoxSDK {
 }
 
 module SwipBoxSDK.Swift {
-    header "SwipBoxSDK-Swift.h"
-    requires objc
+  header "SwipBoxSDK-Swift.h"
+  requires objc
 }

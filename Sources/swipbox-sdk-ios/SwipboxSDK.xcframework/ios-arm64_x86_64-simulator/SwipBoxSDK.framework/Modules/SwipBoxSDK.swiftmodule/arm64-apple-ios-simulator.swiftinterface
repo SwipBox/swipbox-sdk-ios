@@ -1,12 +1,26 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwipBoxSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
 import Foundation
 import Swift
 @_exported import SwipBoxSDK
 import UIKit
 import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers public class DataModelHardware : ObjectiveC.NSObject {
+  public func setLockerUID(uid: Swift.String)
+  public func setErrorMessage(message: Swift.String)
+  public func getDataRecived(data: [Swift.String : Any])
+  public func getPlainDataRecieved(data: [Swift.String : Any])
+  public func getDataSent(data: [Swift.String : Any])
+  public func dataCompleted(isDataComplete: Swift.Bool)
+  public func clearHardwareJson(isClearData: Swift.Bool = false)
+  public func getEndUserJson() -> Swift.Dictionary<Swift.String, Any>
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class BLELockerWrapper : ObjectiveC.NSObject {
   public static let shared: SwipBoxSDK.BLELockerWrapper
   public var bleLockerCallbackDelegate: SwipBoxSDK.BLELockerCallBackDelegate?
@@ -14,20 +28,24 @@ import _Concurrency
   @objc override dynamic public init()
   @objc deinit
   public func startScan()
+  public func getConnectedUIDs() -> [Swift.String]
   public func connect(bleLockerData: Swift.String)
-  public func openCompartment(bleLockerData: Swift.String)
+  public func connectAndOpenCompartment(bleLockerData: Swift.String)
   public func disconnect()
+  public func disconnect(uid: Swift.String)
+  public func openCompartment(bleLockerData: Swift.String)
   public func getHardwareData() -> Swift.Dictionary<Swift.String, Any>
   public func clearHardwareJsonData()
 }
 public protocol BLELockerCallBackDelegate {
   func onCompartmentStatusChanged(uid: Swift.String, compartmentId: Swift.Int, state: Swift.Int)
   func onConnectionStatusChanged(uid: Swift.String, status: Swift.Int)
-  func onError(isHardwareError: Swift.Bool, errorCode: Swift.Int)
-  func onDataAvailable(jsonData: Swift.Dictionary<Swift.String, Any>)
+  func onError(uid: Swift.String, isHardwareError: Swift.Bool, errorCode: Swift.Int)
+  func onDataAvailable(uid: Swift.String, jsonData: Swift.Dictionary<Swift.String, Any>)
   func onFirmwareUpdateInProgress(percentage: Swift.Int)
-  func onOpenCompartmentDetected(ids: [Swift.Int])
+  func onOpenCompartmentDetected(uid: Swift.String, ids: [Swift.Int])
   func onStatusAvailable(uid: Swift.String, bytes: [Swift.UInt8])
+  func onInformativeEventReceive(uid: Swift.String, event: Swift.Int)
 }
 @_hasMissingDesignatedInitializers public class LockerConstant {
   public func getErrorMessage(errorCode: Swift.Int) -> Swift.String
@@ -55,6 +73,10 @@ public enum LockerConstants {
     case ERROR_BLUETOOTH_DISABLE
     case ERROR_BLUETOOTH_ENABLED
     case ERROR_DOOR_DID_NOT_OPEN
+    case INFORMATIVE_EVENT_SCANNING_STARTED
+    case INFORMATIVE_EVENT_SCANNING_STOPPED
+    case INFORMATIVE_EVENT_REQUIRED_DEVICE_FOUND
+    case INFORMATIVE_EVENT_CONNECTION_RETRY_DUE_TO_MTU_SERVICES_FAILURE
     public init?(rawValue: Swift.Int)
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
