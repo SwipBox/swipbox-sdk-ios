@@ -1,9 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwipBoxAppClipSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import CoreBluetooth
+import CoreLocation
 import Foundation
 import Network
 import Swift
@@ -11,6 +12,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers public class BLELockerWrapper : ObjectiveC.NSObject {
   public static let shared: SwipBoxAppClipSDK.BLELockerWrapper
   public var bleLockerCallbackDelegate: (any SwipBoxAppClipSDK.BLELockerCallBackDelegate)?
@@ -49,6 +51,8 @@ public enum LockerConstants {
     case STATUS_DEVICE_OUT_OF_RANGE
     case STATUS_FAILED_AUTH_RESPONSE
     case STATUS_DEVICE_NOT_FOUND
+    case STATUS_DEVICE_AT_WRONG_SERVICE_POINT_WRT_DISTANCE
+    case STATUS_DEVICE_AT_WRONG_SERVICE_POINT_WRT_BLE_SCAN
     case STATUS_CONNECTED_AUTHENTICATED
     case STATUS_COMPARTMENT_OPEN
     case STATUS_COMPARTMENT_CLOSE

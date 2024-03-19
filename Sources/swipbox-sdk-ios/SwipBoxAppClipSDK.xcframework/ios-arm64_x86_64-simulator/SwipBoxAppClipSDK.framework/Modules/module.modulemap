@@ -1,7 +1,7 @@
 framework module SwipBoxAppClipSDK {
   umbrella header "SwipBoxAppClipSDK.h"
-
   export *
+
   module * { export * }
 }
 
