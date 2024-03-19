@@ -1,0 +1,135 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwipBoxSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import CoreBluetooth
+import CoreLocation
+import Foundation
+import Network
+import Swift
+@_exported import SwipBoxSDK
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class BLELockerWrapper : ObjectiveC.NSObject {
+  public static let shared: SwipBoxSDK.BLELockerWrapper
+  public var bleLockerCallbackDelegate: (any SwipBoxSDK.BLELockerCallBackDelegate)?
+  public var compartment_id: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+  public func startScan()
+  public func connect(bleLockerData: Swift.String)
+  public func connect(uID: Swift.String, spID: Swift.String)
+  public func openCompartment(bleLockerData: Swift.String)
+  public func disconnect()
+  public func getHardwareData() -> Swift.Dictionary<Swift.String, Any>
+  public func clearHardwareJsonData()
+}
+public protocol BLELockerCallBackDelegate {
+  func onCompartmentStatusChanged(uid: Swift.String, compartmentId: Swift.Int, state: Swift.Int)
+  func onConnectionStatusChanged(uid: Swift.String, status: Swift.Int)
+  func onError(isHardwareError: Swift.Bool, errorCode: Swift.Int)
+  func onDataAvailable(jsonData: Swift.Dictionary<Swift.String, Any>)
+  func onFirmwareUpdateInProgress(percentage: Swift.Int)
+  func onOpenCompartmentDetected(ids: [Swift.Int])
+  func onStatusAvailable(uid: Swift.String, bytes: [Swift.UInt8])
+}
+@_hasMissingDesignatedInitializers public class LockerConstant {
+  public func getErrorMessage(errorCode: Swift.Int) -> Swift.String
+  @objc deinit
+}
+public enum LockerConstants {
+  public enum General : Swift.Int {
+    case STATUS_DEVICE_CONNECTED
+    case STATUS_DEVICE_DISCONNECTED
+    case STATUS_DEVICE_NOT_CONNECTED_YET
+    case STATUS_CHARACTERISTIC_NOT_FOUND
+    case STATUS_FAILED_TO_SUBSCRIBE
+    case STATUS_DEVICE_TIME_OUT
+    case STATUS_DEVICE_OUT_OF_RANGE
+    case STATUS_FAILED_AUTH_RESPONSE
+    case STATUS_DEVICE_NOT_FOUND
+    case STATUS_DEVICE_AT_WRONG_SERVICE_POINT_WRT_DISTANCE
+    case STATUS_DEVICE_AT_WRONG_SERVICE_POINT_WRT_BLE_SCAN
+    case STATUS_CONNECTED_AUTHENTICATED
+    case STATUS_COMPARTMENT_OPEN
+    case STATUS_COMPARTMENT_CLOSE
+    case ERROR_CODE_CONNECTION_POOL_FULL
+    case ERROR_CODE_CONNECTION_IN_PROGRESS
+    case ERROR_CODE_REQUEST_IN_PROGRESS
+    case ERROR_INVALID_OBJECT
+    case ERROR_PERMISSION_NOT_GRANTED
+    case ERROR_BLUETOOTH_DISABLE
+    case ERROR_BLUETOOTH_ENABLED
+    case ERROR_DOOR_DID_NOT_OPEN
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum HardwareError : Swift.Int {
+    case GENERIC_ERROR
+    case INPUT_DATA_ERROR
+    case GUID_ERROR
+    case TIMESTAMP_ERROR
+    case RSA_ENCRYPTION_FAILED
+    case RSA_DECRYPTION_FAILED
+    case RSA_SIGN_FAILED
+    case RSA_VERIFY_FAILED
+    case AES_ENCRYPTION_FAILED
+    case AES_DECRYPTION_FAILED
+    case SHA_FAILED
+    case WRONG_SERVER_KEY
+    case INVALID_SERVER_KEY
+    case INVALID_SERVER_KEY1
+    case HARDWARE_DEVICE_ERROR
+    case FIRMWARE_ERROR
+    case PARAMETER_ERROR
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum Activity : Swift.String {
+    case CURRENT_ACTIVITY_NAME
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public enum HardwareError : Swift.String {
+  case GENERIC_ERROR
+  case INPUT_DATA_ERROR
+  case GUID_ERROR
+  case TIMESTAMP_ERROR
+  case RSA_ENCRYPTION_FAILED
+  case RSA_DECRYPTION_FAILED
+  case RSA_SIGN_FAILED
+  case RSA_VERIFY_FAILED
+  case ES_ENCRYPTION_FAILED
+  case AES_DECRYPTION_FAILED
+  case SHA_FAILED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension SwipBoxSDK.LockerConstants.General : Swift.Equatable {}
+extension SwipBoxSDK.LockerConstants.General : Swift.Hashable {}
+extension SwipBoxSDK.LockerConstants.General : Swift.RawRepresentable {}
+extension SwipBoxSDK.LockerConstants.HardwareError : Swift.Equatable {}
+extension SwipBoxSDK.LockerConstants.HardwareError : Swift.Hashable {}
+extension SwipBoxSDK.LockerConstants.HardwareError : Swift.RawRepresentable {}
+extension SwipBoxSDK.LockerConstants.Activity : Swift.Equatable {}
+extension SwipBoxSDK.LockerConstants.Activity : Swift.Hashable {}
+extension SwipBoxSDK.LockerConstants.Activity : Swift.RawRepresentable {}
+extension SwipBoxSDK.HardwareError : Swift.Equatable {}
+extension SwipBoxSDK.HardwareError : Swift.Hashable {}
+extension SwipBoxSDK.HardwareError : Swift.RawRepresentable {}
