@@ -306,6 +306,12 @@ SWIFT_CLASS("_TtC10SwipBoxSDK16BLELockerWrapper")
 
 
 
+
+SWIFT_CLASS("_TtC10SwipBoxSDK17DataModelHardware")
+@interface DataModelHardware : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -621,6 +627,12 @@ SWIFT_CLASS("_TtC10SwipBoxSDK16BLELockerWrapper")
 @end
 
 
+
+
+SWIFT_CLASS("_TtC10SwipBoxSDK17DataModelHardware")
+@interface DataModelHardware : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
