@@ -23,6 +23,7 @@ import _SwiftConcurrencyShims
   public func dataCompleted(isDataComplete: Swift.Bool)
   public func clearHardwareJson(isClearData: Swift.Bool = false)
   public func getEndUserJson() -> Swift.Dictionary<Swift.String, Any>
+  public func getPinPadData() -> [Swift.Dictionary<Swift.String, Any>]
   @objc override dynamic public init()
   @objc deinit
 }
@@ -43,6 +44,7 @@ import _SwiftConcurrencyShims
   public func disconnect(uid: Swift.String)
   public func openCompartment(bleLockerData: Swift.String)
   public func getHardwareData() -> Swift.Dictionary<Swift.String, Any>
+  public func getPinPadData() -> [Swift.Dictionary<Swift.String, Any>]
   public func clearHardwareJsonData()
 }
 public protocol BLELockerCallBackDelegate {
