@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SwipBoxSDK",
+    "printedName": "SwipBoxSDK",
     "children": [
       {
         "kind": "Import",
@@ -18,6 +18,23 @@
         "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "zlib",
+        "printedName": "zlib",
         "declKind": "Import",
         "moduleName": "SwipBoxSDK"
       },
@@ -61,6 +78,16 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "SwipBoxSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -173,7 +200,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC12setLockerUID3uidySS_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -199,7 +227,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC15setErrorMessage7messageySS_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -238,7 +267,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC03getD7Recived4dataySDySSypG_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -277,7 +307,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC08getPlainD8Recieved4dataySDySSypG_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -316,7 +347,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC04getaD6Pinpad4dataySDySSypG_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -355,7 +387,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC03getD4Sent4dataySDySSypG_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -381,7 +414,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC13dataCompleted02isD8CompleteySb_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -408,7 +442,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC05clearF4Json07isClearD0ySb_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -440,6 +475,41 @@
             "declKind": "Func",
             "usr": "s:10SwipBoxSDK17DataModelHardwareC14getEndUserJsonSDySSypGyF",
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC14getEndUserJsonSDySSypGyF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPatchPayload",
+            "printedName": "getPatchPayload()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK17DataModelHardwareC15getPatchPayloadSDySSypGyF",
+            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC15getPatchPayloadSDySSypGyF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "AccessControl"
@@ -484,7 +554,8 @@
             "mangledName": "$s10SwipBoxSDK17DataModelHardwareC09getPinPadD0SaySDySSypGGyF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -529,6 +600,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -984,7 +1069,8 @@
             "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC15isAuthenticated3uidSbSS_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1011,166 +1097,6 @@
             "declKind": "Func",
             "usr": "s:10SwipBoxSDK16BLELockerWrapperC16getConnectedUIDsSaySSGyF",
             "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC16getConnectedUIDsSaySSGyF",
-            "moduleName": "SwipBoxSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connect",
-            "printedName": "connect(bleLockerData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC7connect13bleLockerDataySS_tF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC7connect13bleLockerDataySS_tF",
-            "moduleName": "SwipBoxSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connect",
-            "printedName": "connect(uID:spID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC7connect3uID02spG0ySS_SStF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC7connect3uID02spG0ySS_SStF",
-            "moduleName": "SwipBoxSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "connectAndOpenCompartment",
-            "printedName": "connectAndOpenCompartment(bleLockerData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC25connectAndOpenCompartment13bleLockerDataySS_tF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC25connectAndOpenCompartment13bleLockerDataySS_tF",
-            "moduleName": "SwipBoxSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disconnect",
-            "printedName": "disconnect()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC10disconnectyyF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC10disconnectyyF",
-            "moduleName": "SwipBoxSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disconnect",
-            "printedName": "disconnect(uid:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC10disconnect3uidySS_tF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC10disconnect3uidySS_tF",
-            "moduleName": "SwipBoxSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openCompartment",
-            "printedName": "openCompartment(bleLockerData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC15openCompartment13bleLockerDataySS_tF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC15openCompartment13bleLockerDataySS_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "AccessControl",
@@ -1251,7 +1177,8 @@
             "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC13getPinPadDataSaySDySSypGGyF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1275,6 +1202,209 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(bleLockerData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC7connect13bleLockerDataySS_tF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC7connect13bleLockerDataySS_tF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(uID:spID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC7connect3uID02spG0ySS_SStF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC7connect3uID02spG0ySS_SStF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectAndOpenCompartment",
+            "printedName": "connectAndOpenCompartment(bleLockerData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC25connectAndOpenCompartment13bleLockerDataySS_tF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC25connectAndOpenCompartment13bleLockerDataySS_tF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC10disconnectyyF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC10disconnectyyF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectForAllUnknownConnections",
+            "printedName": "disconnectForAllUnknownConnections()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC34disconnectForAllUnknownConnectionsyyF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC34disconnectForAllUnknownConnectionsyyF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isExecutingc30",
+            "printedName": "isExecutingc30()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC14isExecutingc30SbyF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14isExecutingc30SbyF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(uid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC10disconnect3uidySS_tF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC10disconnect3uidySS_tF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openCompartment",
+            "printedName": "openCompartment(bleLockerData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC15openCompartment13bleLockerDataySS_tF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC15openCompartment13bleLockerDataySS_tF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1291,6 +1421,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1507,6 +1651,60 @@
             "declKind": "Func",
             "usr": "s:10SwipBoxSDK25BLELockerCallBackDelegateP15onDataAvailable3uid04jsonI0ySS_SDySSypGtF",
             "mangledName": "$s10SwipBoxSDK25BLELockerCallBackDelegateP15onDataAvailable3uid04jsonI0ySS_SDySSypGtF",
+            "moduleName": "SwipBoxSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwipBoxSDK.BLELockerCallBackDelegate>",
+            "sugared_genericSig": "<Self where Self : SwipBoxSDK.BLELockerCallBackDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDataAvailable",
+            "printedName": "onDataAvailable(uid:jsonData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK25BLELockerCallBackDelegateP15onDataAvailable3uid04jsonI0ySS_SaySDySSypGGtF",
+            "mangledName": "$s10SwipBoxSDK25BLELockerCallBackDelegateP15onDataAvailable3uid04jsonI0ySS_SaySDySSypGGtF",
             "moduleName": "SwipBoxSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : SwipBoxSDK.BLELockerCallBackDelegate>",
             "sugared_genericSig": "<Self where Self : SwipBoxSDK.BLELockerCallBackDelegate>",
@@ -1737,6 +1935,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1799,7 +2013,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -2994,6 +3224,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3748,6 +3992,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3910,6 +4168,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3953,6 +4225,22 @@
         "moduleName": "SwipBoxSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4451,6 +4739,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4939,6 +5241,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5097,11 +5413,600 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isGzipped",
+            "printedName": "isGzipped",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation4DataV10SwipBoxSDKE9isGzippedSbvp",
+            "mangledName": "$s10Foundation4DataV10SwipBoxSDKE9isGzippedSbvp",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation4DataV10SwipBoxSDKE9isGzippedSbvg",
+                "mangledName": "$s10Foundation4DataV10SwipBoxSDKE9isGzippedSbvg",
+                "moduleName": "SwipBoxSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "gunzipped",
+            "printedName": "gunzipped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV10SwipBoxSDKE9gunzippedACyKF",
+            "mangledName": "$s10Foundation4DataV10SwipBoxSDKE9gunzippedACyKF",
+            "moduleName": "SwipBoxSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "2.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/Utils\/Extensions+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8823,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/Utils\/Extensions+Compression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8828,
+      "length": 2,
+      "value": "14"
+    },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
@@ -5146,85 +6051,92 @@
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
+      "kind": "Dictionary",
+      "offset": 1811,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 1691,
+      "offset": 1941,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 1823,
+      "offset": 2073,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2030,
+      "offset": 2280,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 2238,
+      "offset": 2488,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 2438,
+      "offset": 2688,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2547,
+      "offset": 2797,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2662,
+      "offset": 2912,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 2741,
+      "offset": 2991,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3080,
+      "offset": 3330,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3135,
+      "offset": 3385,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 3439,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 29923,
+      "offset": 31086,
       "length": 2,
       "value": "\"\""
     },
@@ -5285,219 +6197,212 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/Utils\/BleUtlity.swift",
-      "kind": "IntegerLiteral",
-      "offset": 214,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/Utils\/BleUtlity.swift",
-      "kind": "IntegerLiteral",
-      "offset": 214,
-      "length": 3,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 225,
+      "offset": 219,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 249,
+      "offset": 243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 275,
+      "offset": 269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 300,
+      "offset": 294,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 331,
+      "offset": 325,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 393,
+      "offset": 386,
       "length": 3,
       "value": "-99"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "FloatLiteral",
-      "offset": 424,
+      "offset": 417,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "FloatLiteral",
-      "offset": 456,
+      "offset": 449,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 480,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "BooleanLiteral",
-      "offset": 523,
+      "offset": 516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 550,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 597,
+      "offset": 590,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 638,
+      "offset": 631,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 679,
+      "offset": 672,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 716,
+      "offset": 709,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 753,
+      "offset": 746,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 5425,
+      "offset": 7965,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 5454,
+      "offset": 7994,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 10582,
+      "offset": 15696,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 10610,
+      "offset": 15736,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15768,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15796,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 12322,
+      "offset": 18760,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 12350,
+      "offset": 18788,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 12376,
+      "offset": 18814,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19540,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19568,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 14346,
+      "offset": 21897,
       "length": 13,
       "value": "\"hardware_id\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 14390,
+      "offset": 21941,
       "length": 18,
       "value": "\"hardware_unit_id\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 14438,
-      "length": 16,
-      "value": "\"compartment_id\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
-      "kind": "StringLiteral",
-      "offset": 14346,
-      "length": 13,
-      "value": "\"hardware_id\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
-      "kind": "StringLiteral",
-      "offset": 14390,
-      "length": 18,
-      "value": "\"hardware_unit_id\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
-      "kind": "StringLiteral",
-      "offset": 14438,
+      "offset": 21989,
       "length": 16,
       "value": "\"compartment_id\""
     },
@@ -5525,84 +6430,133 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 364,
+      "offset": 367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "StringLiteral",
+      "offset": 576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "Array",
+      "offset": 682,
+      "length": 4,
+      "value": "[\"\"]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
       "length": 5,
       "value": "\"2.0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 397,
+      "offset": 751,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Dictionary",
-      "offset": 428,
+      "offset": 782,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 605,
+      "offset": 822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 861,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 691,
+      "offset": 1122,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 760,
+      "offset": 1191,
       "length": 7,
-      "value": "\"2.0.7\""
+      "value": "\"2.0.8\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 1229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 847,
+      "offset": 1278,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 880,
+      "offset": 1311,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 922,
+      "offset": 1353,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 969,
+      "offset": 1400,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "BooleanLiteral",
-      "offset": 1687,
+      "offset": 3877,
       "length": 5,
       "value": "false"
     },
@@ -5643,388 +6597,388 @@
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "Array",
-      "offset": 946,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "Array",
-      "offset": 984,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "Array",
-      "offset": 1038,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1276,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 1597,
+      "offset": 906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1025,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 1136,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 1174,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 1228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1914,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2003,
+      "offset": 1896,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 2138,
+      "offset": 2031,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 2278,
+      "offset": 2175,
       "length": 10,
       "value": "[(\"\", false)]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 2319,
+      "length": 7,
+      "value": "[(\"\", 0)]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 2411,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2431,
+      "offset": 2495,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2539,
+      "offset": 2603,
       "length": 4,
       "value": "1600"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2646,
+      "offset": 2710,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2828,
+      "offset": 2892,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2924,
+      "offset": 2988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3031,
+      "offset": 3095,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3116,
+      "offset": 3180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3245,
+      "offset": 3309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3348,
+      "offset": 3412,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3468,
+      "offset": 3532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 3598,
+      "offset": 3662,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 3658,
+      "offset": 3722,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 3777,
+      "offset": 3841,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 3869,
+      "offset": 3933,
       "length": 5,
       "value": "\" : \""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 4238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4262,
+      "offset": 4326,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4371,
+      "offset": 4435,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4480,
+      "offset": 4544,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4550,
+      "offset": 4614,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5345,
+      "offset": 4864,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5446,
+      "offset": 4969,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5547,
+      "offset": 5074,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5652,
+      "offset": 5179,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5745,
+      "offset": 5276,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 6503,
+      "offset": 5599,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6625,
+      "offset": 5725,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 6662,
+      "offset": 5762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6698,
+      "offset": 5798,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 6847,
+      "offset": 5947,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6894,
+      "offset": 5994,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 6930,
+      "offset": 6030,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 6983,
+      "offset": 6083,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 7064,
+      "offset": 6126,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 7101,
+      "offset": 6163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 7203,
+      "offset": 6265,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 14300,
+      "offset": 14640,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 40673,
+      "offset": 32379,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 42754,
+      "offset": 48454,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 50361,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 49095,
+      "offset": 56626,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 51383,
-      "length": 5,
-      "value": "false"
+      "kind": "IntegerLiteral",
+      "offset": 142885,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 113290,
+      "offset": 142911,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Networking\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 201,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Networking\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Networking\/NetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 247,
-      "length": 7,
-      "value": "\"PATCH\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Networking\/NetworkManager.swift",
@@ -6147,1142 +7101,470 @@
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 756,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 779,
+      "offset": 765,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 824,
+      "offset": 811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 857,
+      "offset": 856,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 910,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3884,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3956,
-      "length": 2,
-      "value": "-7"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4038,
-      "length": 2,
-      "value": "-8"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4112,
-      "length": 2,
-      "value": "-9"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4201,
-      "length": 3,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4275,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4347,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4419,
-      "length": 3,
-      "value": "-11"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4463,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4558,
-      "length": 3,
-      "value": "141"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4727,
-      "length": 3,
-      "value": "142"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4879,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4961,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5023,
+      "offset": 946,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5093,
-      "length": 2,
-      "value": "-3"
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1014,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1047,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5185,
-      "length": 2,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5279,
-      "length": 2,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5357,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5450,
-      "length": 2,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5526,
-      "length": 2,
-      "value": "-4"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5595,
+      "offset": 4020,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5663,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5811,
-      "length": 3,
-      "value": "700"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5865,
-      "length": 3,
-      "value": "701"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5924,
-      "length": 3,
-      "value": "702"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6006,
-      "length": 3,
-      "value": "703"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6073,
-      "length": 3,
-      "value": "704"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6122,
-      "length": 3,
-      "value": "705"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3884,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3956,
-      "length": 1,
-      "value": "-7"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4038,
-      "length": 1,
-      "value": "-8"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4112,
-      "length": 1,
-      "value": "-9"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4201,
-      "length": 1,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4275,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4347,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4419,
-      "length": 1,
-      "value": "-11"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4463,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4558,
-      "length": 3,
-      "value": "141"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4727,
-      "length": 3,
-      "value": "142"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4879,
+      "offset": 4070,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4961,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5023,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5093,
-      "length": 1,
-      "value": "-3"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5185,
-      "length": 1,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5279,
-      "length": 1,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5357,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5450,
-      "length": 1,
-      "value": "-2"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5526,
-      "length": 1,
-      "value": "-4"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5595,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5663,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5811,
-      "length": 3,
-      "value": "700"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5865,
-      "length": 3,
-      "value": "701"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5924,
-      "length": 3,
-      "value": "702"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6006,
-      "length": 3,
-      "value": "703"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6073,
-      "length": 3,
-      "value": "704"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6122,
-      "length": 3,
-      "value": "705"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3884,
+      "offset": 4189,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3956,
-      "length": 1,
+      "offset": 4261,
+      "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4038,
-      "length": 1,
+      "offset": 4343,
+      "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4112,
-      "length": 1,
+      "offset": 4417,
+      "length": 2,
       "value": "-9"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4201,
-      "length": 1,
+      "offset": 4506,
+      "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4275,
+      "offset": 4580,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4347,
+      "offset": 4652,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4419,
-      "length": 1,
+      "offset": 4724,
+      "length": 3,
       "value": "-11"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4463,
+      "offset": 4768,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4558,
+      "offset": 4863,
       "length": 3,
       "value": "141"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4727,
+      "offset": 5032,
       "length": 3,
       "value": "142"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4879,
+      "offset": 5184,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4961,
+      "offset": 5266,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5023,
+      "offset": 5328,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5093,
-      "length": 1,
+      "offset": 5398,
+      "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5185,
-      "length": 1,
+      "offset": 5490,
+      "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5279,
-      "length": 1,
+      "offset": 5584,
+      "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5357,
-      "length": 1,
+      "offset": 5662,
+      "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5450,
-      "length": 1,
+      "offset": 5755,
+      "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5526,
-      "length": 1,
+      "offset": 5831,
+      "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5595,
+      "offset": 5900,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5663,
+      "offset": 5968,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5811,
+      "offset": 6116,
       "length": 3,
       "value": "700"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5865,
+      "offset": 6170,
       "length": 3,
       "value": "701"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5924,
+      "offset": 6229,
       "length": 3,
       "value": "702"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6006,
+      "offset": 6311,
       "length": 3,
       "value": "703"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6073,
+      "offset": 6378,
       "length": 3,
       "value": "704"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6122,
+      "offset": 6427,
       "length": 3,
       "value": "705"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6223,
+      "offset": 6528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6265,
+      "offset": 6570,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6307,
+      "offset": 6612,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6349,
+      "offset": 6654,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6391,
+      "offset": 6696,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6433,
+      "offset": 6738,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6475,
+      "offset": 6780,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6517,
+      "offset": 6822,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6559,
+      "offset": 6864,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6601,
+      "offset": 6906,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6643,
+      "offset": 6948,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6686,
+      "offset": 6991,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6729,
+      "offset": 7034,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6772,
+      "offset": 7077,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6814,
+      "offset": 7119,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6857,
+      "offset": 7162,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6900,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6223,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6265,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6307,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6349,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6391,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6433,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6475,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6517,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6559,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6601,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6643,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6686,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6729,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6772,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6814,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6857,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6900,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6223,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6265,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6307,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6349,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6391,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6433,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6475,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6517,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6559,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6601,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6643,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6686,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6729,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6772,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6814,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6857,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6900,
+      "offset": 7205,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6986,
+      "offset": 7291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6986,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7072,
+      "offset": 7377,
       "length": 15,
       "value": "\"GENERIC ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7116,
+      "offset": 7421,
       "length": 18,
       "value": "\"INPUT DATA ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7157,
+      "offset": 7462,
       "length": 12,
       "value": "\"GUID ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7197,
+      "offset": 7502,
       "length": 17,
       "value": "\"TIMESTAMP ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7248,
+      "offset": 7553,
       "length": 23,
       "value": "\"RSA ENCRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7305,
+      "offset": 7610,
       "length": 23,
       "value": "\"RSA DECRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7356,
+      "offset": 7661,
       "length": 18,
       "value": "\" RSA SIGN FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7404,
+      "offset": 7709,
       "length": 19,
       "value": "\"RSA VERIFY FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7456,
+      "offset": 7761,
       "length": 22,
       "value": "\"ES ENCRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7512,
+      "offset": 7817,
       "length": 23,
       "value": "\"AES DECRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7558,
-      "length": 12,
-      "value": "\"SHA FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7072,
-      "length": 15,
-      "value": "\"GENERIC ERROR\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7116,
-      "length": 18,
-      "value": "\"INPUT DATA ERROR\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7157,
-      "length": 12,
-      "value": "\"GUID ERROR\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7197,
-      "length": 17,
-      "value": "\"TIMESTAMP ERROR\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7248,
-      "length": 23,
-      "value": "\"RSA ENCRYPTION FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7305,
-      "length": 23,
-      "value": "\"RSA DECRYPTION FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7356,
-      "length": 18,
-      "value": "\" RSA SIGN FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7404,
-      "length": 19,
-      "value": "\"RSA VERIFY FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7456,
-      "length": 22,
-      "value": "\"ES ENCRYPTION FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7512,
-      "length": 23,
-      "value": "\"AES DECRYPTION FAILED\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
-      "kind": "StringLiteral",
-      "offset": 7558,
+      "offset": 7863,
       "length": 12,
       "value": "\"SHA FAILED\""
     },
@@ -7317,196 +7599,203 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 994,
+      "offset": 1011,
+      "length": 16,
+      "value": "\"token mismatch\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1070,
       "length": 5,
       "value": "\"MTU\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1122,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1179,
       "length": 10,
       "value": "\"Services\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1163,
+      "offset": 1239,
       "length": 12,
       "value": "\"error code\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 1302,
       "length": 13,
       "value": "\"MTU updated\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1291,
+      "offset": 1367,
       "length": 14,
       "value": "\"device found\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1363,
+      "offset": 1439,
       "length": 18,
       "value": "\"connection retry\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1515,
       "length": 20,
       "value": "\"connection request\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1593,
       "length": 20,
       "value": "\"door state changed\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1595,
+      "offset": 1671,
       "length": 20,
       "value": "\"open door detected\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1672,
+      "offset": 1748,
       "length": 19,
       "value": "\"door did not open\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1751,
+      "offset": 1827,
       "length": 21,
       "value": "\"device disconnected\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1837,
+      "offset": 1913,
       "length": 60,
       "value": "\"device disconnected due to error -11 auth response timeout\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1960,
+      "offset": 2036,
       "length": 24,
       "value": "\"subscription requested\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2047,
+      "offset": 2123,
       "length": 25,
       "value": "\"hardware token received\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2135,
+      "offset": 2211,
       "length": 25,
       "value": "\"auth response available\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2223,
+      "offset": 2299,
       "length": 25,
       "value": "\"subscription successful\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2311,
+      "offset": 2387,
       "length": 25,
       "value": "\"connection request sent\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2476,
       "length": 26,
       "value": "\"connection status update\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2493,
+      "offset": 2569,
       "length": 29,
       "value": "\"connection request time out\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2592,
+      "offset": 2668,
       "length": 32,
       "value": "\"firmware update token executed\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2674,
+      "offset": 2750,
       "length": 12,
       "value": "\"start scan\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2735,
+      "offset": 2811,
       "length": 11,
       "value": "\"stop scan\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2837,
+      "offset": 2913,
       "length": 7,
       "value": "\"added\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 2986,
       "length": 20,
       "value": "\"number of services\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2999,
+      "offset": 3075,
       "length": 23,
       "value": "\"request already exist\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3087,
+      "offset": 3163,
       "length": 28,
       "value": "\"hardware already connected\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3200,
+      "offset": 3276,
       "length": 58,
       "value": "\"data received on hardware channel without authentication\""
     },
@@ -7547,78 +7836,92 @@
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 464,
+      "offset": 581,
       "length": 9,
       "value": "\"refresh\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 579,
+      "offset": 696,
       "length": 12,
       "value": "\"removeBond\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 792,
       "length": 38,
       "value": "\"4EB1071C-1490-91CB-AE60-11EE7F61F0E0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 804,
+      "offset": 921,
       "length": 38,
       "value": "\"18FA8491-0AC4-8421-0677-329C013F34A0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 946,
+      "offset": 1063,
       "length": 38,
       "value": "\"8763A2C1-5F4E-9052-114F-983FC3452BA4\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1234,
       "length": 38,
       "value": "\"00002902-0000-1000-8000-00805f9b34fb\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1395,
       "length": 38,
       "value": "\"18fa8492-0ac4-8421-0677-329c013f34a0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1554,
       "length": 38,
       "value": "\"18FA8494-0AC4-8421-0677-329C013F34A0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1605,
+      "offset": 1722,
       "length": 38,
       "value": "\"18FA8493-0AC4-8421-0677-329C013F34A0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1791,
+      "offset": 1908,
       "length": 38,
       "value": "\"8763A2C2-5F4E-9052-114F-983FC3452BA4\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 2094,
       "length": 38,
       "value": "\"8763A2C3-5F4E-9052-114F-983FC3452BA4\""
     },
@@ -7691,13 +7994,6 @@
       "offset": 467,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothWriter.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 15,
-      "value": "\"SwipBoxSDK.BluetoothWriter\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/ConnectedDevice.swift",
