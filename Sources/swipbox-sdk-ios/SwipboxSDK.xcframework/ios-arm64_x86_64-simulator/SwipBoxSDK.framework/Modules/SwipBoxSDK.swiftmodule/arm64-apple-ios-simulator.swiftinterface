@@ -1,0 +1,200 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SwipBoxSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Combine
+import CoreBluetooth
+import CoreData
+import CoreLocation
+import Foundation
+import Foundation/*.Data*/
+import Network
+import Swift
+@_exported import SwipBoxSDK
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+extension Foundation.Data {
+  public var isGzipped: Swift.Bool {
+    get
+  }
+  public func gunzipped() throws -> Foundation.Data
+}
+@objc @_inheritsConvenienceInitializers public class DataModelHardware : ObjectiveC.NSObject {
+  public func setLockerUID(uid: Swift.String)
+  public func setErrorMessage(message: Swift.String)
+  public func getDataRecived(data: [Swift.String : Any])
+  public func getPlainDataRecieved(data: [Swift.String : Any])
+  public func getaDataPinpad(data: [Swift.String : Any])
+  public func getDataSent(data: [Swift.String : Any])
+  public func dataCompleted(isDataComplete: Swift.Bool)
+  public func clearHardwareJson(isClearData: Swift.Bool = false)
+  public func getEndUserJson() -> Swift.Dictionary<Swift.String, Any>
+  public func getPatchPayload() -> Swift.Dictionary<Swift.String, Any>
+  public func getPinPadData() -> [Swift.Dictionary<Swift.String, Any>]
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class BLELockerWrapper : ObjectiveC.NSObject {
+  public static let shared: SwipBoxSDK.BLELockerWrapper
+  public var bleLockerCallbackDelegate: (any SwipBoxSDK.BLELockerCallBackDelegate)?
+  public var compartment_id: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+  public func startScan()
+  public func stopScan()
+  public func isAuthenticated(uid: Swift.String) -> Swift.Bool
+  public func getConnectedUIDs() -> [Swift.String]
+  public func getHardwareData() -> Swift.Dictionary<Swift.String, Any>
+  public func getPinPadData() -> [Swift.Dictionary<Swift.String, Any>]
+  public func clearHardwareJsonData()
+  public func connect(bleLockerData: Swift.String)
+  public func connect(uID currentParcelModelUID: Swift.String, spID: Swift.String)
+  public func connectAndOpenCompartment(bleLockerData: Swift.String)
+  public func disconnect()
+  public func disconnectForAllUnknownConnections()
+  public func isExecutingc30() -> Swift.Bool
+  public func disconnect(uid: Swift.String)
+  public func openCompartment(bleLockerData: Swift.String)
+}
+public protocol BLELockerCallBackDelegate {
+  func onCompartmentStatusChanged(uid: Swift.String, compartmentId: Swift.Int, state: Swift.Int)
+  func onConnectionStatusChanged(uid: Swift.String, status: Swift.Int)
+  func onError(uid: Swift.String, isHardwareError: Swift.Bool, errorCode: Swift.Int)
+  func onDataAvailable(uid: Swift.String, jsonData: Swift.Dictionary<Swift.String, Any>)
+  func onDataAvailable(uid: Swift.String, jsonData: [Swift.Dictionary<Swift.String, Any>])
+  func onFirmwareUpdateInProgress(percentage: Swift.Int)
+  func onOpenCompartmentDetected(uid: Swift.String, ids: [Swift.Int])
+  func onStatusAvailable(uid: Swift.String, bytes: [Swift.UInt8])
+  func onInformativeEventReceive(uid: Swift.String, event: Swift.Int)
+  func onScanDevice(JSONObject: [Swift.String : Any])
+  func onPINsWritingProgress(uid: Swift.String, percentage: Swift.Int)
+}
+@_hasMissingDesignatedInitializers public class LockerConstant {
+  public func getErrorMessage(errorCode: Swift.Int) -> Swift.String
+  @objc deinit
+}
+public enum LockerConstants {
+  public enum General : Swift.Int {
+    case STATUS_DEVICE_CONNECTED
+    case STATUS_DEVICE_DISCONNECTED
+    case STATUS_DEVICE_NOT_CONNECTED_YET
+    case STATUS_CHARACTERISTIC_NOT_FOUND
+    case STATUS_FAILED_TO_SUBSCRIBE
+    case STATUS_DEVICE_TIME_OUT
+    case STATUS_DEVICE_OUT_OF_RANGE
+    case STATUS_FAILED_AUTH_RESPONSE
+    case STATUS_DEVICE_NOT_FOUND
+    case STATUS_DEVICE_AT_WRONG_SERVICE_POINT_WRT_DISTANCE
+    case STATUS_DEVICE_AT_WRONG_SERVICE_POINT_WRT_BLE_SCAN
+    case STATUS_CONNECTED_AUTHENTICATED
+    case STATUS_COMPARTMENT_OPEN
+    case STATUS_COMPARTMENT_CLOSE
+    case ERROR_CODE_CONNECTION_POOL_FULL
+    case ERROR_CODE_CONNECTION_IN_PROGRESS
+    case ERROR_CODE_REQUEST_IN_PROGRESS
+    case ERROR_INVALID_OBJECT
+    case ERROR_PERMISSION_NOT_GRANTED
+    case ERROR_BLUETOOTH_DISABLE
+    case ERROR_BLUETOOTH_ENABLED
+    case ERROR_DOOR_DID_NOT_OPEN
+    case INFORMATIVE_EVENT_SCANNING_STARTED
+    case INFORMATIVE_EVENT_SCANNING_STOPPED
+    case INFORMATIVE_EVENT_REQUIRED_DEVICE_FOUND
+    case INFORMATIVE_EVENT_CONNECTION_RETRY_DUE_TO_MTU_SERVICES_FAILURE
+    case INFORMATIVE_EVENT_LOCKER_AUTHENTICATED
+    case INFORMATIVE_EVENT_C1_EXECUTED
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum HardwareError : Swift.Int {
+    case GENERIC_ERROR
+    case INPUT_DATA_ERROR
+    case GUID_ERROR
+    case TIMESTAMP_ERROR
+    case RSA_ENCRYPTION_FAILED
+    case RSA_DECRYPTION_FAILED
+    case RSA_SIGN_FAILED
+    case RSA_VERIFY_FAILED
+    case AES_ENCRYPTION_FAILED
+    case AES_DECRYPTION_FAILED
+    case SHA_FAILED
+    case WRONG_SERVER_KEY
+    case INVALID_SERVER_KEY
+    case INVALID_SERVER_KEY1
+    case HARDWARE_DEVICE_ERROR
+    case FIRMWARE_ERROR
+    case PARAMETER_ERROR
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum Activity : Swift.String {
+    case CURRENT_ACTIVITY_NAME
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+public enum HardwareError : Swift.String {
+  case GENERIC_ERROR
+  case INPUT_DATA_ERROR
+  case GUID_ERROR
+  case TIMESTAMP_ERROR
+  case RSA_ENCRYPTION_FAILED
+  case RSA_DECRYPTION_FAILED
+  case RSA_SIGN_FAILED
+  case RSA_VERIFY_FAILED
+  case ES_ENCRYPTION_FAILED
+  case AES_DECRYPTION_FAILED
+  case SHA_FAILED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(LoggerEntry) public class LoggerEntry : CoreData.NSManagedObject {
+  @objc @NSManaged dynamic public var logId: Swift.Int32 {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var pieceID: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var logsUid: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var json: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension SwipBoxSDK.LoggerEntry {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<SwipBoxSDK.LoggerEntry>
+}
+extension SwipBoxSDK.LockerConstants.General : Swift.Equatable {}
+extension SwipBoxSDK.LockerConstants.General : Swift.Hashable {}
+extension SwipBoxSDK.LockerConstants.General : Swift.RawRepresentable {}
+extension SwipBoxSDK.LockerConstants.HardwareError : Swift.Equatable {}
+extension SwipBoxSDK.LockerConstants.HardwareError : Swift.Hashable {}
+extension SwipBoxSDK.LockerConstants.HardwareError : Swift.RawRepresentable {}
+extension SwipBoxSDK.LockerConstants.Activity : Swift.Equatable {}
+extension SwipBoxSDK.LockerConstants.Activity : Swift.Hashable {}
+extension SwipBoxSDK.LockerConstants.Activity : Swift.RawRepresentable {}
+extension SwipBoxSDK.HardwareError : Swift.Equatable {}
+extension SwipBoxSDK.HardwareError : Swift.Hashable {}
+extension SwipBoxSDK.HardwareError : Swift.RawRepresentable {}
