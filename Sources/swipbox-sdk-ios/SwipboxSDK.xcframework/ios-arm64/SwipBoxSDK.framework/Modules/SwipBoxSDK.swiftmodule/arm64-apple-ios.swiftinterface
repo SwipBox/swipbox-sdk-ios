@@ -31,8 +31,8 @@ extension Foundation.Data {
   public func getDataSent(data: [Swift.String : Any])
   public func dataCompleted(isDataComplete: Swift.Bool)
   public func clearHardwareJson(isClearData: Swift.Bool = false)
-  public func getEndUserJson() -> Swift.Dictionary<Swift.String, Any>
-  public func getPatchPayload() -> Swift.Dictionary<Swift.String, Any>
+  public func getJSONObject() -> Swift.Dictionary<Swift.String, Any>
+  public func getJSONArray() -> [Swift.Dictionary<Swift.String, Any>]
   public func getPinPadData() -> [Swift.Dictionary<Swift.String, Any>]
   @objc override dynamic public init()
   @objc deinit
@@ -71,6 +71,10 @@ public protocol BLELockerCallBackDelegate {
   func onInformativeEventReceive(uid: Swift.String, event: Swift.Int)
   func onScanDevice(JSONObject: [Swift.String : Any])
   func onPINsWritingProgress(uid: Swift.String, percentage: Swift.Int)
+}
+extension SwipBoxSDK.BLELockerCallBackDelegate {
+  public func onDataAvailable(uid: Swift.String, jsonData: Swift.Dictionary<Swift.String, Any>)
+  public func onDataAvailable(uid: Swift.String, jsonData: [Swift.Dictionary<Swift.String, Any>])
 }
 @_hasMissingDesignatedInitializers public class LockerConstant {
   public func getErrorMessage(errorCode: Swift.Int) -> Swift.String

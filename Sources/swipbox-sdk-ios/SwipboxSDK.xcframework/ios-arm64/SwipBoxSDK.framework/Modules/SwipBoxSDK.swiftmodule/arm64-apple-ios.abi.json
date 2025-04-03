@@ -449,8 +449,8 @@
           },
           {
             "kind": "Function",
-            "name": "getEndUserJson",
-            "printedName": "getEndUserJson()",
+            "name": "getJSONObject",
+            "printedName": "getJSONObject()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -473,8 +473,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10SwipBoxSDK17DataModelHardwareC14getEndUserJsonSDySSypGyF",
-            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC14getEndUserJsonSDySSypGyF",
+            "usr": "s:10SwipBoxSDK17DataModelHardwareC13getJSONObjectSDySSypGyF",
+            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC13getJSONObjectSDySSypGyF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "AccessControl",
@@ -484,32 +484,40 @@
           },
           {
             "kind": "Function",
-            "name": "getPatchPayload",
-            "printedName": "getPatchPayload()",
+            "name": "getJSONArray",
+            "printedName": "getJSONArray()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
                   }
                 ],
-                "usr": "s:SD"
+                "usr": "s:Sa"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10SwipBoxSDK17DataModelHardwareC15getPatchPayloadSDySSypGyF",
-            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC15getPatchPayloadSDySSypGyF",
+            "usr": "s:10SwipBoxSDK17DataModelHardwareC12getJSONArraySaySDySSypGGyF",
+            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC12getJSONArraySaySDySSypGGyF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "AccessControl"
@@ -1917,6 +1925,104 @@
             "sugared_genericSig": "<Self where Self : SwipBoxSDK.BLELockerCallBackDelegate>",
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDataAvailable",
+            "printedName": "onDataAvailable(uid:jsonData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK25BLELockerCallBackDelegatePAAE15onDataAvailable3uid04jsonI0ySS_SDySSypGtF",
+            "mangledName": "$s10SwipBoxSDK25BLELockerCallBackDelegatePAAE15onDataAvailable3uid04jsonI0ySS_SDySSypGtF",
+            "moduleName": "SwipBoxSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwipBoxSDK.BLELockerCallBackDelegate>",
+            "sugared_genericSig": "<Self where Self : SwipBoxSDK.BLELockerCallBackDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDataAvailable",
+            "printedName": "onDataAvailable(uid:jsonData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.String : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SwipBoxSDK25BLELockerCallBackDelegatePAAE15onDataAvailable3uid04jsonI0ySS_SaySDySSypGGtF",
+            "mangledName": "$s10SwipBoxSDK25BLELockerCallBackDelegatePAAE15onDataAvailable3uid04jsonI0ySS_SaySDySSypGGtF",
+            "moduleName": "SwipBoxSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwipBoxSDK.BLELockerCallBackDelegate>",
+            "sugared_genericSig": "<Self where Self : SwipBoxSDK.BLELockerCallBackDelegate>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -6926,49 +7032,49 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 14933,
+      "offset": 14926,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 32672,
+      "offset": 32665,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 48747,
+      "offset": 48740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 50654,
+      "offset": 50647,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 56919,
+      "offset": 56912,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 143178,
+      "offset": 143194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 143204,
+      "offset": 143220,
       "length": 5,
       "value": "false"
     },
