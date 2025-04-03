@@ -47,7 +47,7 @@ extension Foundation.Data {
   public func stopScan()
   public func isAuthenticated(uid: Swift.String) -> Swift.Bool
   public func getConnectedUIDs() -> [Swift.String]
-  public func getHardwareData() -> Swift.Dictionary<Swift.String, Any>
+  public func getHardwareData(isRawData: Swift.Bool) -> Any
   public func getPinPadData() -> [Swift.Dictionary<Swift.String, Any>]
   public func clearHardwareJsonData()
   public func connect(bleLockerData: Swift.String)
