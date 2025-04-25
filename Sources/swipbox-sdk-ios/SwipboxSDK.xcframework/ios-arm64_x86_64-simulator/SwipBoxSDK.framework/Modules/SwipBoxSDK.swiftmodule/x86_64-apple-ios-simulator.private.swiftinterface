@@ -28,7 +28,6 @@ extension Foundation.Data {
   public func getDataRecived(data: [Swift.String : Any])
   public func getPlainDataRecieved(data: [Swift.String : Any])
   public func getaDataPinpad(data: [Swift.String : Any])
-  public func getDataSent(data: [Swift.String : Any])
   public func dataCompleted(isDataComplete: Swift.Bool)
   public func clearHardwareJson(isClearData: Swift.Bool = false)
   public func getJSONObject() -> Swift.Dictionary<Swift.String, Any>
@@ -69,7 +68,7 @@ public protocol BLELockerCallBackDelegate {
   func onOpenCompartmentDetected(uid: Swift.String, ids: [Swift.Int])
   func onStatusAvailable(uid: Swift.String, bytes: [Swift.UInt8])
   func onInformativeEventReceive(uid: Swift.String, event: Swift.Int)
-  func onScanDevice(JSONObject: [Swift.String : Any])
+  func onDeviceScan(JSONObject: [Swift.String : Any])
   func onPINsWritingProgress(uid: Swift.String, percentage: Swift.Int)
 }
 extension SwipBoxSDK.BLELockerCallBackDelegate {
