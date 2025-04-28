@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		43p8ZIFaw0mZhx0MySD+io0QShc=
+		UDSBdFRvCVUERfRm/5e7KfUw1sg=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gTIkWD4QaxHZMn98v30+f4jxTC0=
+		WMJTlGvJogPq30k3fi9ztoHr9Hk=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		43p8ZIFaw0mZhx0MySD+io0QShc=
+		UDSBdFRvCVUERfRm/5e7KfUw1sg=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GMGlX7Fwdei4yKZnhE9yYkuR+6k=
+		uTgrEpqSeCiuCkewLxBjZoyQ/zA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+dG/+QpBevszs3/ww4g+mQCeC6PI5JMO0b4k/7Nt5us=
+			urf5pNWWIQDwPMH3gKH8TUfmnWntglzAsdvvtDhw3P4=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/WL4a5roxmfhS5X2/RTsckwOENw00VeFqiy0ugrTmO4=
+			siOk6ITzZjSUY7RiQ+ibIY8UqMkUX4uB+EdfKCGfL3Y=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+dG/+QpBevszs3/ww4g+mQCeC6PI5JMO0b4k/7Nt5us=
+			urf5pNWWIQDwPMH3gKH8TUfmnWntglzAsdvvtDhw3P4=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CeFwLb0Rq9fUADgXkdOFsRJhxaBbn+i7FoJ+hHrQwaQ=
+			9PmO5DemZFizYRLCbviPQm/fDrV5ldcUAl64+2o5U0U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

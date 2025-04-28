@@ -6194,7 +6194,7 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 31086,
+      "offset": 31080,
       "length": 2,
       "value": "\"\""
     },
@@ -7049,552 +7049,552 @@
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
       "offset": 278,
-      "length": 38,
-      "value": "\"https:\/\/dpd-pl-test-api.swipbox.com\/\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 343,
+      "offset": 307,
       "length": 23,
       "value": "\"services\/courier-api\/\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 343,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 398,
+      "offset": 362,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "Array",
-      "offset": 434,
+      "offset": 398,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 486,
+      "offset": 450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 513,
+      "offset": 477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 541,
+      "offset": 505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 591,
+      "offset": 555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 636,
+      "offset": 600,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "Array",
-      "offset": 670,
+      "offset": 634,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 712,
+      "offset": 676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 758,
+      "offset": 722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 803,
+      "offset": 767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 857,
+      "offset": 821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 898,
+      "offset": 862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 934,
+      "offset": 898,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 957,
+      "offset": 921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 1002,
+      "offset": 966,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "BooleanLiteral",
-      "offset": 1035,
+      "offset": 999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4006,
+      "offset": 3970,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4056,
+      "offset": 4020,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4175,
+      "offset": 4139,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4247,
+      "offset": 4211,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4329,
+      "offset": 4293,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4403,
+      "offset": 4367,
       "length": 2,
       "value": "-9"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4492,
+      "offset": 4456,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4566,
+      "offset": 4530,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4638,
+      "offset": 4602,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4710,
+      "offset": 4674,
       "length": 3,
       "value": "-11"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4754,
+      "offset": 4718,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4849,
+      "offset": 4813,
       "length": 3,
       "value": "141"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5018,
+      "offset": 4982,
       "length": 3,
       "value": "142"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5170,
+      "offset": 5134,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5252,
+      "offset": 5216,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5314,
+      "offset": 5278,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5384,
+      "offset": 5348,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5476,
+      "offset": 5440,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5570,
+      "offset": 5534,
       "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5648,
+      "offset": 5612,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5741,
+      "offset": 5705,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5817,
+      "offset": 5781,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5886,
+      "offset": 5850,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5954,
+      "offset": 5918,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6102,
+      "offset": 6066,
       "length": 3,
       "value": "700"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6156,
+      "offset": 6120,
       "length": 3,
       "value": "701"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6215,
+      "offset": 6179,
       "length": 3,
       "value": "702"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6297,
+      "offset": 6261,
       "length": 3,
       "value": "703"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6364,
+      "offset": 6328,
       "length": 3,
       "value": "704"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6413,
+      "offset": 6377,
       "length": 3,
       "value": "705"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6514,
+      "offset": 6478,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6556,
+      "offset": 6520,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6598,
+      "offset": 6562,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6640,
+      "offset": 6604,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6682,
+      "offset": 6646,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6724,
+      "offset": 6688,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6766,
+      "offset": 6730,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6808,
+      "offset": 6772,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6850,
+      "offset": 6814,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6892,
+      "offset": 6856,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6934,
+      "offset": 6898,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6977,
+      "offset": 6941,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 7020,
+      "offset": 6984,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 7063,
+      "offset": 7027,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 7105,
+      "offset": 7069,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 7148,
+      "offset": 7112,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 7191,
+      "offset": 7155,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7277,
+      "offset": 7241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7363,
+      "offset": 7327,
       "length": 15,
       "value": "\"GENERIC ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7407,
+      "offset": 7371,
       "length": 18,
       "value": "\"INPUT DATA ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7448,
+      "offset": 7412,
       "length": 12,
       "value": "\"GUID ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7488,
+      "offset": 7452,
       "length": 17,
       "value": "\"TIMESTAMP ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7539,
+      "offset": 7503,
       "length": 23,
       "value": "\"RSA ENCRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7596,
+      "offset": 7560,
       "length": 23,
       "value": "\"RSA DECRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7647,
+      "offset": 7611,
       "length": 18,
       "value": "\" RSA SIGN FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7695,
+      "offset": 7659,
       "length": 19,
       "value": "\"RSA VERIFY FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7747,
+      "offset": 7711,
       "length": 22,
       "value": "\"ES ENCRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7803,
+      "offset": 7767,
       "length": 23,
       "value": "\"AES DECRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7849,
+      "offset": 7813,
       "length": 12,
       "value": "\"SHA FAILED\""
     },
