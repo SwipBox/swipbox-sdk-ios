@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		O2WV9FyrIwGVwJ/070nAWdAC+NM=
+		QpE9wV2gGGTYH5H7gZfqWfQR+aI=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ffXeWXxm/L4kTYVv7qOki6A7CQI=
+		eQDeALMZuwtH4jNsJcLNEcjv/HE=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		K+B+UB2Qz/RqYTHGKmq+U1KrQZs=
+		acZ220Oq1D0hP6JvljVh/WVH2H0=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ffXeWXxm/L4kTYVv7qOki6A7CQI=
+		eQDeALMZuwtH4jNsJcLNEcjv/HE=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CHDQvZ+mhf61PSL2IzuFkx8ZP/I=
+		C5dZwFOjfeqIDNvFRVijL550Tto=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		O2WV9FyrIwGVwJ/070nAWdAC+NM=
+		QpE9wV2gGGTYH5H7gZfqWfQR+aI=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m5TZu4YHRZMfz4sgzbBEuBVwevY=
+		arfoUm0aDK89x15cboZY9VTVR2Q=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		td4t3+igf+tGTt2q5eSnnThNVpk=
+		fMdKb4RhtqcNFK0WM3U1AKGBVqw=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m5TZu4YHRZMfz4sgzbBEuBVwevY=
+		arfoUm0aDK89x15cboZY9VTVR2Q=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bXYdqdglzEGJfjlepVJqHPk1WqY=
+		l1IRQBBl+9lO4VbLStJEK0Uh6f4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,70 +89,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uhzdOnI0vvIIrmRAAwehHRYaK9UpDZYjtHLfxBvdDpc=
+			wuV+LAVz2SuJdKvUYFbqQz9Wuaf5EDM4VX9QMSMyavE=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4CvNXFY8oZcd7kVFJDwVvnKhDF+yr6UOpEPHYSjDug4=
+			9ks71YH9G6DY3B/8gypyieHduqOtOYHgqxfsvTxHUTU=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z/rid00AhRY9JJ1Epe1k/Sv6zDwbNjD3A4D8UnNEmO0=
+			4bvZPcR0cayu40ZYkPVaQODf4xQq1eBERR3Uj2S6Mck=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4CvNXFY8oZcd7kVFJDwVvnKhDF+yr6UOpEPHYSjDug4=
+			9ks71YH9G6DY3B/8gypyieHduqOtOYHgqxfsvTxHUTU=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+QYdeW31MUax1mWQxkhutqDrreg7HegwfaWpsNL3NPs=
+			RJTxWxVrh55bpDpm+Hgf7DpR6TiHjxqCpV5+W4TUIrg=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uhzdOnI0vvIIrmRAAwehHRYaK9UpDZYjtHLfxBvdDpc=
+			wuV+LAVz2SuJdKvUYFbqQz9Wuaf5EDM4VX9QMSMyavE=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			81FgyKVYUQ9/nKzJKJmMbsChDDJxXcPp6wN8rmb2hmM=
+			SiJGhe3fPzNLmgeI9kcKHv+r5c2p3LOIO3zcoODMokM=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UuFAfus4mgw1Ubat5c9+bIWLTWeN8nPzAArx5Z887tA=
+			QMasxPbPjAWe9Oolxj14v4acXgSuX6d/uMu0l5LwbyA=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			81FgyKVYUQ9/nKzJKJmMbsChDDJxXcPp6wN8rmb2hmM=
+			SiJGhe3fPzNLmgeI9kcKHv+r5c2p3LOIO3zcoODMokM=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/xIXTlom5WFANyZTYgX2BGsboM81yaZocqcWteu3Ko=
+			0K6lK0fdeTKCI5Fl5KFCY/rYH27cH7UcjKK7TKFAgv8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
