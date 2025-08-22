@@ -382,24 +382,17 @@
           {
             "kind": "Function",
             "name": "clearHardwareJson",
-            "printedName": "clearHardwareJson(isClearData:)",
+            "printedName": "clearHardwareJson()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10SwipBoxSDK17DataModelHardwareC05clearF4Json07isClearD0ySb_tF",
-            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC05clearF4Json07isClearD0ySb_tF",
+            "usr": "s:10SwipBoxSDK17DataModelHardwareC05clearF4JsonyyF",
+            "mangledName": "$s10SwipBoxSDK17DataModelHardwareC05clearF4JsonyyF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "AccessControl",
@@ -6517,7 +6510,7 @@
       "kind": "StringLiteral",
       "offset": 1191,
       "length": 7,
-      "value": "\"2.1.0\""
+      "value": "\"2.1.1\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
@@ -6546,13 +6539,6 @@
       "offset": 1367,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3541,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
@@ -6956,56 +6942,56 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 15242,
+      "offset": 15407,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 33098,
+      "offset": 33263,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 49689,
+      "offset": 49837,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 51472,
+      "offset": 51569,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 58129,
+      "offset": 58226,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 67713,
+      "offset": 67810,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 149967,
+      "offset": 150104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 149993,
+      "offset": 150130,
       "length": 5,
       "value": "false"
     },
