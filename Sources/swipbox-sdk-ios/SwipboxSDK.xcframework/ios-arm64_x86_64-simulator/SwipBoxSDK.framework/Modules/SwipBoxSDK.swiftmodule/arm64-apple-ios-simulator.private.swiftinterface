@@ -9,9 +9,11 @@ import CoreLocation
 import Foundation
 import Foundation/*.Data*/
 import Network
+import Security
 import Swift
 @_exported import SwipBoxSDK
 import UIKit
+import WatchConnectivity
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -39,7 +41,7 @@ extension Foundation.Data {
 @objc @_inheritsConvenienceInitializers public class BLELockerWrapper : ObjectiveC.NSObject {
   public static let shared: SwipBoxSDK.BLELockerWrapper
   public var bleLockerCallbackDelegate: (any SwipBoxSDK.BLELockerCallBackDelegate)?
-  public var compartment_id: Swift.Int
+  public var compartmentId: Swift.Int
   @objc override dynamic public init()
   @objc deinit
   public func startScan()
@@ -54,7 +56,7 @@ extension Foundation.Data {
   public func connectAndOpenCompartment(bleLockerData: Swift.String)
   public func disconnect()
   public func disconnectForAllUnknownConnections()
-  public func isExecutingc30() -> Swift.Bool
+  public func isExecutingc30(uid: Swift.String) -> Swift.Bool
   public func disconnect(uid: Swift.String)
   public func openCompartment(bleLockerData: Swift.String)
 }

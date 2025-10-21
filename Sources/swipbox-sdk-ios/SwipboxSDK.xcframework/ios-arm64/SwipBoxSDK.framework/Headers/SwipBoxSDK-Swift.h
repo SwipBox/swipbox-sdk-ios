@@ -314,6 +314,8 @@ SWIFT_CLASS("_TtC10SwipBoxSDK16BLELockerWrapper")
 
 
 
+
+
 SWIFT_CLASS("_TtC10SwipBoxSDK17DataModelHardware")
 @interface DataModelHardware : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

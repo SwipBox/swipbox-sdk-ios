@@ -50,8 +50,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreBluetooth",
-        "printedName": "CoreBluetooth",
+        "name": "Security",
+        "printedName": "Security",
         "declKind": "Import",
         "moduleName": "SwipBoxSDK"
       },
@@ -67,10 +67,20 @@
       },
       {
         "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Network",
         "printedName": "Network",
         "declKind": "Import",
-        "moduleName": "SwipBoxSDK"
+        "moduleName": "SwipBoxSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -155,6 +165,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK"
       },
       {
         "kind": "Import",
@@ -685,6 +712,13 @@
         "moduleName": "SwipBoxSDK"
       },
       {
+        "kind": "Import",
+        "name": "WatchConnectivity",
+        "printedName": "WatchConnectivity",
+        "declKind": "Import",
+        "moduleName": "SwipBoxSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "BLELockerWrapper",
         "printedName": "BLELockerWrapper",
@@ -853,8 +887,8 @@
           },
           {
             "kind": "Var",
-            "name": "compartment_id",
-            "printedName": "compartment_id",
+            "name": "compartmentId",
+            "printedName": "compartmentId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -864,8 +898,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC14compartment_idSivp",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14compartment_idSivp",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivp",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivp",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "HasInitialValue",
@@ -888,8 +922,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10SwipBoxSDK16BLELockerWrapperC14compartment_idSivg",
-                "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14compartment_idSivg",
+                "usr": "s:10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivg",
+                "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivg",
                 "moduleName": "SwipBoxSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -912,8 +946,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10SwipBoxSDK16BLELockerWrapperC14compartment_idSivs",
-                "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14compartment_idSivs",
+                "usr": "s:10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivs",
+                "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivs",
                 "moduleName": "SwipBoxSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -930,8 +964,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10SwipBoxSDK16BLELockerWrapperC14compartment_idSivM",
-                "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14compartment_idSivM",
+                "usr": "s:10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivM",
+                "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC13compartmentIdSivM",
                 "moduleName": "SwipBoxSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1287,18 +1321,24 @@
           {
             "kind": "Function",
             "name": "isExecutingc30",
-            "printedName": "isExecutingc30()",
+            "printedName": "isExecutingc30(uid:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:10SwipBoxSDK16BLELockerWrapperC14isExecutingc30SbyF",
-            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14isExecutingc30SbyF",
+            "usr": "s:10SwipBoxSDK16BLELockerWrapperC14isExecutingc303uidSbSS_tF",
+            "mangledName": "$s10SwipBoxSDK16BLELockerWrapperC14isExecutingc303uidSbSS_tF",
             "moduleName": "SwipBoxSDK",
             "declAttributes": [
               "AccessControl"
@@ -6018,154 +6058,196 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 541,
+      "offset": 540,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
+      "kind": "Dictionary",
+      "offset": 826,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 853,
+      "offset": 928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 985,
+      "offset": 1052,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 1271,
+      "offset": 1325,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 1450,
+      "offset": 1491,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 1562,
+      "offset": 1589,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 1811,
+      "offset": 1838,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 1941,
+      "offset": 1968,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Array",
-      "offset": 2073,
+      "offset": 2100,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2280,
+      "offset": 2294,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 2488,
+      "offset": 2502,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 2688,
+      "offset": 2694,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2797,
+      "offset": 2803,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2910,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 2991,
+      "offset": 2989,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
+      "kind": "Dictionary",
+      "offset": 3065,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
+      "kind": "Dictionary",
+      "offset": 3138,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3330,
+      "offset": 3479,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3385,
-      "length": 2,
-      "value": "12"
+      "offset": 3534,
+      "length": 1,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 3450,
+      "offset": 3590,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "Dictionary",
-      "offset": 3589,
+      "offset": 3729,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 31259,
+      "offset": 33911,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
       "kind": "StringLiteral",
-      "offset": 32563,
+      "offset": 34379,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/ComunicationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 35244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Service.swift",
+      "kind": "Array",
+      "offset": 326,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Service.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 29,
+      "value": "\"InternetConnectivityMonitor\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Service.swift",
       "kind": "BooleanLiteral",
-      "offset": 953,
+      "offset": 459,
       "length": 5,
       "value": "false"
     },
@@ -6219,6 +6301,20 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/SwipboxLockerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3934,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/SwipboxLockerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5580,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
       "offset": 219,
@@ -6235,84 +6331,84 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 269,
+      "offset": 280,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 294,
+      "offset": 331,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 325,
+      "offset": 362,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 386,
+      "offset": 423,
       "length": 3,
       "value": "-99"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "FloatLiteral",
-      "offset": 417,
+      "offset": 454,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "FloatLiteral",
-      "offset": 449,
+      "offset": 486,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 517,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "BooleanLiteral",
-      "offset": 516,
+      "offset": 553,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 550,
+      "offset": 587,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 590,
+      "offset": 627,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 631,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
-      "kind": "Array",
-      "offset": 672,
+      "offset": 668,
       "length": 2,
       "value": "[]"
     },
@@ -6333,667 +6429,863 @@
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 7965,
+      "offset": 783,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "StringLiteral",
+      "offset": 8649,
+      "length": 21,
+      "value": "\"additional_commands\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "Array",
+      "offset": 10316,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "Array",
-      "offset": 7994,
+      "offset": 10345,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 19128,
+      "offset": 21575,
+      "length": 11,
+      "value": "\"fw_tokens\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
+      "kind": "StringLiteral",
+      "offset": 28255,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 19156,
+      "offset": 28283,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 19182,
+      "offset": 28309,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 19908,
+      "offset": 29016,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "IntegerLiteral",
-      "offset": 19936,
+      "offset": 29044,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 22265,
+      "offset": 31547,
       "length": 13,
       "value": "\"hardware_id\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 22309,
+      "offset": 31591,
       "length": 18,
       "value": "\"hardware_unit_id\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelShipment.swift",
       "kind": "StringLiteral",
-      "offset": 22357,
+      "offset": 31639,
       "length": 16,
       "value": "\"compartment_id\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Dictionary",
-      "offset": 259,
+      "offset": 299,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Dictionary",
-      "offset": 294,
+      "offset": 334,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Dictionary",
-      "offset": 329,
+      "offset": 369,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 406,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 403,
+      "offset": 442,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 526,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 611,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 682,
+      "offset": 717,
       "length": 4,
       "value": "[\"\"]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 718,
+      "offset": 753,
       "length": 5,
       "value": "\"2.0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Dictionary",
-      "offset": 782,
+      "offset": 817,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 822,
+      "offset": 857,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "IntegerLiteral",
-      "offset": 861,
+      "offset": 896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1082,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 1122,
+      "offset": 1168,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
-      "length": 7,
-      "value": "\"2.1.1\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
-      "kind": "StringLiteral",
-      "offset": 1229,
+      "offset": 1393,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 7,
+      "value": "\"2.2.1\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 1278,
+      "offset": 1478,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 1320,
+      "offset": 1520,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/DataModelHardware.swift",
       "kind": "Array",
-      "offset": 1367,
+      "offset": 1567,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 312,
+      "offset": 310,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 371,
+      "offset": 367,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
       "kind": "IntegerLiteral",
-      "offset": 414,
+      "offset": 408,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
       "kind": "Array",
-      "offset": 550,
+      "offset": 544,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
       "kind": "Dictionary",
-      "offset": 773,
+      "offset": 767,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/Commnunication\/BluetoothHelpers\/BluetoothScanner.swift",
       "kind": "BooleanLiteral",
-      "offset": 812,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 906,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "Array",
-      "offset": 1147,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "Array",
-      "offset": 1185,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "Array",
-      "offset": 1239,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1621,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1729,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 1815,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1907,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2042,
+      "offset": 838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 2186,
+      "offset": 921,
+      "length": 11,
+      "value": "[(\"\", false)]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 1168,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 1206,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 1260,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1682,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 1727,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1811,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 1947,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 2016,
       "length": 10,
       "value": "[(\"\", false)]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 2330,
+      "offset": 2077,
       "length": 7,
       "value": "[(\"\", 0)]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 2422,
+      "offset": 2161,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2506,
+      "offset": 2244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2614,
-      "length": 4,
-      "value": "1600"
+      "offset": 2342,
+      "length": 3,
+      "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2721,
+      "offset": 2437,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2903,
+      "offset": 2609,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 2999,
+      "offset": 2705,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3106,
+      "offset": 2812,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3191,
+      "offset": 2889,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3320,
+      "offset": 3010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3423,
+      "offset": 3113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3543,
+      "offset": 3233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 3673,
+      "offset": 3356,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 3733,
+      "offset": 3409,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3438,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 3852,
+      "offset": 3552,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 3944,
+      "offset": 3642,
       "length": 5,
       "value": "\" : \""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 4249,
+      "offset": 3915,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4362,
+      "offset": 4028,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4471,
+      "offset": 4137,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4541,
+      "offset": 4199,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 4599,
+      "offset": 4249,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4848,
+      "offset": 4490,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 4953,
+      "offset": 4587,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5058,
+      "offset": 4684,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5163,
+      "offset": 4781,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 5260,
+      "offset": 4870,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 5414,
+      "offset": 4919,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5592,
+      "offset": 5057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 5109,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 5707,
+      "offset": 5217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5833,
+      "offset": 5260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 5870,
+      "offset": 5297,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 5906,
+      "offset": 5333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 6055,
+      "offset": 5474,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6102,
+      "offset": 5521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 6138,
+      "offset": 5557,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Dictionary",
-      "offset": 6191,
+      "offset": 5610,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 6234,
+      "offset": 5653,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 6271,
+      "offset": 5690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 6373,
+      "offset": 5792,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "Array",
-      "offset": 6483,
+      "offset": 5902,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 5981,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6050,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6227,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6278,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6327,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6384,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 6441,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6501,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6563,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 6601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 6638,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 6711,
+      "length": 26,
+      "value": "\"com.openCompartmentQueue\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 6820,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 6890,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6949,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Dictionary",
+      "offset": 7077,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "Array",
+      "offset": 7159,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 15407,
+      "offset": 16355,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 33263,
+      "offset": 34293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 49837,
+      "offset": 51064,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 51569,
+      "offset": 53368,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 53388,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 53426,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "FloatLiteral",
-      "offset": 58226,
+      "offset": 57828,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 67810,
+      "offset": 68990,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 78972,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 129529,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 129566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 150104,
+      "offset": 170654,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 150130,
+      "offset": 170680,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/General\/BLELockerWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 190097,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Networking\/NetworkManager.swift",
@@ -7193,813 +7485,939 @@
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1080,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1147,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4527,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4565,
+      "length": 13,
+      "value": "\"x-parcel-id\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4609,
+      "length": 20,
+      "value": "\"x-sync-sdk-log-uid\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 4681,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3791,
+      "offset": 4815,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3863,
+      "offset": 4887,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 3945,
+      "offset": 4969,
       "length": 2,
       "value": "-8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4019,
+      "offset": 5043,
       "length": 2,
       "value": "-9"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4108,
+      "offset": 5132,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4193,
+      "offset": 5217,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4265,
+      "offset": 5289,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4337,
+      "offset": 5361,
       "length": 3,
       "value": "-11"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4381,
+      "offset": 5405,
       "length": 3,
       "value": "140"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4471,
+      "offset": 5495,
       "length": 3,
       "value": "141"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4640,
+      "offset": 5664,
       "length": 3,
       "value": "142"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4785,
+      "offset": 5809,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4847,
+      "offset": 5871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4917,
+      "offset": 5941,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5009,
+      "offset": 6033,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5103,
+      "offset": 6127,
       "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5181,
+      "offset": 6205,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5286,
+      "offset": 6310,
       "length": 3,
       "value": "-14"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5363,
+      "offset": 6387,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5514,
+      "offset": 6538,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5568,
+      "offset": 6592,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5674,
+      "offset": 6698,
       "length": 3,
       "value": "700"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5728,
+      "offset": 6752,
       "length": 3,
       "value": "701"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5787,
+      "offset": 6811,
       "length": 3,
       "value": "702"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5869,
+      "offset": 6893,
       "length": 3,
       "value": "703"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5936,
+      "offset": 6960,
       "length": 3,
       "value": "704"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6037,
+      "offset": 7061,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6079,
+      "offset": 7103,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6121,
+      "offset": 7145,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6163,
+      "offset": 7187,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6205,
+      "offset": 7229,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6247,
+      "offset": 7271,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6289,
+      "offset": 7313,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6331,
+      "offset": 7355,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6373,
+      "offset": 7397,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6415,
+      "offset": 7439,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6457,
+      "offset": 7481,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6500,
+      "offset": 7524,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6543,
+      "offset": 7567,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6586,
+      "offset": 7610,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6628,
+      "offset": 7652,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6671,
+      "offset": 7695,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6714,
+      "offset": 7738,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 6760,
+      "offset": 7784,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6846,
+      "offset": 7870,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6932,
+      "offset": 7956,
       "length": 15,
       "value": "\"GENERIC ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 6976,
+      "offset": 8000,
       "length": 18,
       "value": "\"INPUT DATA ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7017,
+      "offset": 8041,
       "length": 12,
       "value": "\"GUID ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7057,
+      "offset": 8081,
       "length": 17,
       "value": "\"TIMESTAMP ERROR\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7108,
+      "offset": 8132,
       "length": 23,
       "value": "\"RSA ENCRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7165,
+      "offset": 8189,
       "length": 23,
       "value": "\"RSA DECRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7216,
+      "offset": 8240,
       "length": 18,
       "value": "\" RSA SIGN FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7264,
+      "offset": 8288,
       "length": 19,
       "value": "\"RSA VERIFY FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7316,
+      "offset": 8340,
       "length": 22,
       "value": "\"ES ENCRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7372,
+      "offset": 8396,
       "length": 23,
       "value": "\"AES DECRYPTION FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/LockerConstants.swift",
       "kind": "StringLiteral",
-      "offset": 7418,
+      "offset": 8442,
       "length": 12,
       "value": "\"SHA FAILED\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 591,
+      "offset": 595,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 701,
       "length": 13,
       "value": "\"Swipbox-iOS\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 793,
+      "offset": 765,
       "length": 19,
       "value": "\"PINPadHandler-iOS\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "Array",
-      "offset": 927,
+      "offset": 902,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 985,
       "length": 16,
       "value": "\"token mismatch\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1045,
       "length": 5,
       "value": "\"MTU\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1098,
       "length": 9,
       "value": "\"Message\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1182,
+      "offset": 1156,
       "length": 10,
       "value": "\"Services\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1242,
+      "offset": 1216,
       "length": 12,
       "value": "\"error code\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1305,
+      "offset": 1279,
       "length": 13,
       "value": "\"MTU updated\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1370,
+      "offset": 1344,
       "length": 14,
       "value": "\"device found\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1414,
       "length": 18,
       "value": "\"connection retry\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1518,
+      "offset": 1490,
       "length": 20,
       "value": "\"connection request\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1596,
+      "offset": 1567,
       "length": 20,
       "value": "\"door state changed\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1674,
+      "offset": 1644,
       "length": 20,
       "value": "\"open door detected\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1751,
+      "offset": 1719,
       "length": 19,
       "value": "\"door did not open\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1830,
+      "offset": 1797,
       "length": 21,
       "value": "\"device disconnected\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1916,
+      "offset": 1883,
       "length": 60,
       "value": "\"device disconnected due to error -11 auth response timeout\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2039,
+      "offset": 2005,
       "length": 24,
       "value": "\"subscription requested\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2126,
+      "offset": 2091,
       "length": 25,
       "value": "\"hardware token received\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2214,
+      "offset": 2178,
       "length": 25,
       "value": "\"auth response available\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 2266,
       "length": 25,
       "value": "\"subscription successful\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2390,
+      "offset": 2353,
       "length": 25,
       "value": "\"connection request sent\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2479,
+      "offset": 2441,
       "length": 26,
       "value": "\"connection status update\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2572,
+      "offset": 2532,
       "length": 29,
       "value": "\"connection request time out\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2671,
+      "offset": 2629,
       "length": 32,
       "value": "\"firmware update token executed\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2753,
+      "offset": 2711,
       "length": 12,
       "value": "\"start scan\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2814,
+      "offset": 2772,
       "length": 11,
       "value": "\"stop scan\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2916,
+      "offset": 2868,
       "length": 7,
       "value": "\"added\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 2939,
       "length": 20,
       "value": "\"number of services\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3078,
+      "offset": 3026,
       "length": 23,
       "value": "\"request already exist\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3166,
+      "offset": 3113,
       "length": 28,
       "value": "\"hardware already connected\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/DataModel\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3222,
       "length": 58,
       "value": "\"data received on hardware channel without authentication\""
     },
     {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CommandManager\/AdditionalCommandManager.swift",
+      "kind": "Array",
+      "offset": 356,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CommandManager\/AdditionalCommandManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CommandManager\/AdditionalCommandManager.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CommandManager\/AdditionalCommandManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CommandManager\/AdditionalCommandManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 588,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CommandManager\/AdditionalCommandManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 654,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/LocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1713,
+      "offset": 1997,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/LocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1755,
+      "offset": 2039,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/Protocols\/LocationManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1811,
+      "offset": 2095,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 252,
+      "offset": 250,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 360,
+      "offset": 354,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 420,
+      "offset": 408,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 479,
+      "offset": 466,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 581,
+      "offset": 567,
       "length": 9,
       "value": "\"refresh\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 696,
+      "offset": 627,
       "length": 12,
       "value": "\"removeBond\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 722,
       "length": 38,
       "value": "\"4EB1071C-1490-91CB-AE60-11EE7F61F0E0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 846,
       "length": 38,
       "value": "\"18FA8491-0AC4-8421-0677-329C013F34A0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1063,
+      "offset": 946,
+      "length": 38,
+      "value": "\"463F49E1-17FE-15A2-6C88-B205A6316367\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 38,
+      "value": "\"EFD2C821-DFDE-C137-CD11-F3BE84914132\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
       "length": 38,
       "value": "\"8763A2C1-5F4E-9052-114F-983FC3452BA4\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1234,
+      "offset": 1349,
       "length": 38,
       "value": "\"00002902-0000-1000-8000-00805f9b34fb\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1507,
       "length": 38,
       "value": "\"18fa8492-0ac4-8421-0677-329c013f34a0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 1660,
       "length": 38,
       "value": "\"18FA8494-0AC4-8421-0677-329C013F34A0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
+      "offset": 1765,
+      "length": 38,
+      "value": "\"463F49E2-17FE-15A2-6C88-B205A6316367\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1876,
+      "length": 38,
+      "value": "\"EFD2C822-DFDE-C137-CD11-F3BE84914132\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 38,
+      "value": "\"EFD2C823-DFDE-C137-CD11-F3BE84914132\""
+    },
+    {
+      "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2146,
       "length": 38,
       "value": "\"18FA8493-0AC4-8421-0677-329C013F34A0\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1908,
+      "offset": 2327,
       "length": 38,
       "value": "\"8763A2C2-5F4E-9052-114F-983FC3452BA4\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2094,
+      "offset": 2508,
       "length": 38,
       "value": "\"8763A2C3-5F4E-9052-114F-983FC3452BA4\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2186,
+      "offset": 2597,
       "length": 9,
       "value": "\"SwipBox\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/SwipBoxSDK\/BleConstants.swift",
       "kind": "StringLiteral",
-      "offset": 2249,
+      "offset": 2657,
       "length": 11,
       "value": "\"SB PINPAD\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 655,
       "length": 20,
       "value": "\"com.swipbox.sdkios\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 782,
       "length": 24,
       "value": "\"SwipboxLoggerDataModel\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1180,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1301,
       "length": 49,
       "value": "\"❌ Failed to locate Core Data model in bundle.\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1603,
+      "offset": 1745,
       "length": 60,
       "value": "\"❌ Loading of store failed: \""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1662,
+      "offset": 1804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/m.ismail\/Documents\/iOS_SDKs\/SDK\/CoreData\/CoreDataHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 5183,
+      "offset": 5317,
       "length": 2,
       "value": "30"
     },
