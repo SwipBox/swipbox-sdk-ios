@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eZdCKiGpM7G5sygmxBOBFDfDvsc=
+		GW24Msq1p6ofHhmyEgFLO1B81Js=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gnonmN38+RYVVmt6UMAn7eCQwag=
+		UQD0RA5tPl5ZbKoxsWOJApuMuXY=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vsNig2ra1IA84fDgkvjfcBQlFYg=
+		z0qgqoeqr+Rc+bSrqXjAEfy9VyM=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gnonmN38+RYVVmt6UMAn7eCQwag=
+		UQD0RA5tPl5ZbKoxsWOJApuMuXY=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TlRSW94b+WQI90XjtF3jAwA+xl4=
+		McQFFnmSO4L3IMt5riqZGakNMss=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gNYZjw3TbBhpVh942XAUaHCtzw6CryxeczqwDtfDIZ4=
+			zImNsbq9mQ9emI7IVkmbz6v0T6StLIm8cEQI8afyWrc=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+/AslvHyEHVEPwZwwjcpBZn0rEDyQfZBb/8yHd/eHyk=
+			u0hRNTzgIKQTu9cCpyGfS0nSRqVjVZfhauH3Qk+O7pQ=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gNYZjw3TbBhpVh942XAUaHCtzw6CryxeczqwDtfDIZ4=
+			zImNsbq9mQ9emI7IVkmbz6v0T6StLIm8cEQI8afyWrc=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCc/VCf2H53MKxZRttLuDvu4iuD7MiDTpTGlx/I8IX8=
+			CNVCPNSkF4U91Vhrl/6zAFZ8L+pHXJdyqAZMJoN+opc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
