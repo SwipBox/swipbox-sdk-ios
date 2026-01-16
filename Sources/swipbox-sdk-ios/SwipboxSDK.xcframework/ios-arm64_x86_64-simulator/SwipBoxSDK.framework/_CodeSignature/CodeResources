@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MCAmDwds5DViy1eOgGXWOmxfUEE=
+		3vNgSqNGBiJATX8CZ+FRa7tMan4=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lKKYhShm0WfsmKDtckQ0YH2avug=
+		AQv871/JiiITZgAG+5D6+sCi/X8=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GnkoULuZZn4b3H9pEIbDRMNDkHQ=
+		su4bxvm9adbF1HUVE2jWg3rQSuo=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lKKYhShm0WfsmKDtckQ0YH2avug=
+		AQv871/JiiITZgAG+5D6+sCi/X8=
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zzGpYzWt7roDeK8TJzuPZzhGlM4=
+		38coF6mPMdp0g5XYel8FlnJNvQ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qMbgWqId76GLNSOHXDVY7w4+/rXwdUW9YLR4BF/U6RY=
+			3nJjQDhsNI1RpL3GBL+zHPVlhjeKXVimSQj9oMYEabM=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z3GM9yHMg5WjnOIl1yrEv2mTNGXsMDn0l5RiPMlbafU=
+			Sh8fEHA1wE0jEzqmJeOq65p9OZ/U9+A+gjIYqerC6/Y=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qMbgWqId76GLNSOHXDVY7w4+/rXwdUW9YLR4BF/U6RY=
+			3nJjQDhsNI1RpL3GBL+zHPVlhjeKXVimSQj9oMYEabM=
 			</data>
 		</dict>
 		<key>Modules/SwipBoxSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dIJUB7ROQva7pLyMs5dUJDO5RG6NevrOXLKYgIQvGc8=
+			xYFR+q8/aZVH/bQawVVem9F7+kPr5lbsC0zn11bJu4U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
