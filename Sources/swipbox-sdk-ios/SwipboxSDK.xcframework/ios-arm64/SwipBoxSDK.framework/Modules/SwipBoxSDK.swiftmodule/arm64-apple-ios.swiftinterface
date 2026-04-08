@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SwipBoxSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SwipBoxSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import Combine
 import CoreBluetooth
 import CoreData
@@ -29,6 +29,7 @@ extension Foundation.Data {
   public func setErrorMessage(message: Swift.String)
   public func getDataRecived(data: [Swift.String : Any])
   public func getPlainDataRecieved(data: [Swift.String : Any])
+  public func getaDataPinpad(data: [Swift.String : Any])
   public func dataCompleted(isDataComplete: Swift.Bool)
   public func clearHardwareJson()
   public func getJSONObject() -> Swift.Dictionary<Swift.String, Any>
@@ -108,7 +109,9 @@ public enum LockerConstants {
     case INFORMATIVE_EVENT_REQUIRED_DEVICE_FOUND
     case INFORMATIVE_EVENT_CONNECTION_RETRY_DUE_TO_MTU_SERVICES_FAILURE
     case INFORMATIVE_EVENT_LOCKER_AUTHENTICATED
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -133,7 +136,9 @@ public enum LockerConstants {
     case FIRMWARE_ERROR
     case PARAMETER_ERROR
     case ERROR_INVALID_AUTH_SESSION
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -141,7 +146,9 @@ public enum LockerConstants {
   }
   public enum Activity : Swift.String {
     case CURRENT_ACTIVITY_NAME
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.String)
+    #endif
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
       get
@@ -160,30 +167,34 @@ public enum HardwareError : Swift.String {
   case ES_ENCRYPTION_FAILED
   case AES_DECRYPTION_FAILED
   case SHA_FAILED
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc(LoggerEntry) public class LoggerEntry : CoreData.NSManagedObject {
-  @objc @NSManaged dynamic public var logId: Swift.Int32 {
+@_inheritsConvenienceInitializers @objc(LoggerEntry) nonisolated public class LoggerEntry : CoreData.NSManagedObject {
+  @objc @NSManaged nonisolated dynamic public var logId: Swift.Int32 {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var pieceID: Swift.String {
+  @objc @NSManaged nonisolated dynamic public var pieceID: Swift.String {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var logsUid: Swift.String {
+  @objc @NSManaged nonisolated dynamic public var logsUid: Swift.String {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var json: Swift.String {
+  @objc @NSManaged nonisolated dynamic public var json: Swift.String {
     @objc get
     @objc set
   }
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
 extension SwipBoxSDK.LoggerEntry {
